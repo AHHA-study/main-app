@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Button } from "./modules/sub-module/component/Button";
 
 function App() {
   return (
@@ -18,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <Button
+          onClick={() => console.log("sub-module click!")}
+          label="sub-module button"
+        />
       </header>
     </div>
   );
