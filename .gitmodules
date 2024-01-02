@@ -1,4 +1,4 @@
-[submodule "sub-module"]
+[submodule "src/modules/sub-module"]
 	path = src/modules/sub-module
 	url = git@github.com:AHHA-study/sub-module.git
-	branch = main
+	branch = module
